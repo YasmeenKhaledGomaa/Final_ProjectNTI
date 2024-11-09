@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Strike&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box; 
+    font-family: "Poppins", sans-serif;
+}
+:root{
+    font-size: 18px;
+}
+body{
+    width: 100%;
+    /* background-color: silver; */
+}
+#nav{
+    width: 90%;
+    height: 90px;
+    line-height: 90px;
+    /* background-color: rgba(254, 255, 253, 0.816); */
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    /* border: solid; */
+    margin-left: 5%;
+}
+.logo{
+    width: 30%;
+    /* border: solid; */
+} 
+.nav-bar{
+    width: 70%;
+    /* border: solid 1px; */
+}
+.nav-bar ul , li{
+    display: inline;
+    word-spacing: 20px;
+    font-size: 1.3rem;
+}
+.nav-bar a{
+    color: black;
+    text-decoration: none;
+    padding-left: 35px;
+}
+.nav-bar a:hover{
+    color: #E6C744;
+    font-weight: 600;
+}
+.sign , .shop{
+    width: 90px;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+}
+.sign{  
+    display: inline;
+}
+.sign a , .shop a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+.header{
+    width: 90%;
+    height: 600px;
+    background-color: #C2C8DA;
+    margin: auto;
+    margin-top: 110px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    /* border: solid; */
+}
+.title{
+    width: 45%;
+    /* border: solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.title div{
+    margin-left: 90px;
+}
+.title h1{
+    width: 20%;
+    font-weight: 900;
+    font-size: 60px;
+}
+h1 .lets, .unique{
+    width: 90px;
+    height: 30px;
+    padding: 0px 130px 0px 20px;
+    background-color: white;
+    margin-left: -20px;
+}
+h1 .unique{
+    background-color: #E6C744;
+    margin-left: -25px;
+    padding: 0px 80px 0px 20px;
+}
+.shop{
+    width: 130px;
+}
+.title-image{
+    width: 55%;
+    /* border: solid; */
+}
+.title-image img{
+    height: 600px;
+    /* margin-left: 30px; */
+}
+.ecommerce{
+    width: 100%;
+    height: 130px;
+    background-color: #E6C744;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    /* border: solid; */
+}
+.ecommerce div{
+    margin: auto;
+}
+.arrivals , .Favourite{
+    width: 90%;
+    height: 750px;
+    margin: 80px auto;
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    /* border: solid; */
+}
+.heading{
+    width: 100%;
+    height: 100px;
+}
+.heading h1{
+    width: 30%;
+    height: 50px;
+    font-weight: 900;
+    background-color: #E6C744;
+    border-radius: 40px 1px 40px 1px;
+}
+.carts{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: space-between ;
+    margin-top: 45px;
+}
+.carts .cart{
+    width: 30%;
+    height: 100%;
+}
+.cart .image img{
+    width: 100%;
+}
+.explore{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: gray;
+    display: flex;
+    justify-content: space-between;
+}
+.sail{
+    width: 100%;
+    height: 600px;
+    background-color: #E6C744;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    /* border: solid; */
+}
+.sail-image{
+    width: 49%;
+}
+.sail-image img{
+    height: 600px;
+}
+.sail-title{
+    width: 49%; 
+    justify-content: center;
+}
+.sail-title div{
+    margin: 20px;
+    margin-left: 140px;
+}
+.sail-title .payday{
+    padding: 0px 50px 0px 20px ;
+}
+.sail-title p{
+    width: 360px;
+    font-weight: 600;
+}
+.Favourite{
+    height: 650px;
+    margin-top: 80px;
+}
+.Favourite .cart1{
+    width: 49%;
+}
+.download{
+    width: 90%;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.app , .mobile{
+    width: 45%;
+    height: 100%;
+    /* border: solid; */
+}
+.app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.app div{
+    margin: 20px;
+    margin-left: 80px;
+}
+.app h1{
+    width: 90%;
+    font-weight: 900;
+}
+.app p{
+    width: 80%;
+}
+.apps{
+    display: flex;
+}
+.apps div{
+    margin-left: -8px;
+}
+.apps img{
+    height: 55px;
+}
+.mobile img{
+    width: 100%;
+    height: 100%;
+}
+.footer{
+    width: 100%;
+    height: 850px;
+    /* border: solid red; */
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.top , .bottom{
+    width: 100%;
+    height: 400px;
+    background-color: #E6C744;
+}
+.top{
+    padding: 65px;
+}
+.top div{
+    margin: 18px auto;
+    text-align: center;
+    width: 50%;
+    color: white;
+}
+.top p{
+    font-size: 1.1rem;
+}
+.top .mail{
+    width: 25%;
+    height: 50px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.mail .add{
+    color: gray;
+    line-height: 50px;
+    margin-left: 25px;
+    font-size: 1rem;
+}
+.mail .send{
+    width: 25%;
+    height: 40px;
+    line-height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin: auto 5px;
+}
+.bottom{
+    height: 450px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.left{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    margin-top: 50px;
+}
+.left div{
+    margin-top: 30px;
+}
+.left p{
+    width: 40%;
+    color: rgb(180, 176, 176);
+    font-size: 0.85rem;
+}
+.icons ul , li{
+    word-spacing: 3px;
+}
+.right{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    line-height: 50px;
+}
+dd{
+    color: rgb(180, 176, 176);
+}
